@@ -174,8 +174,6 @@ void loop(){
   //Serial.println(instrument);
   
 
-  oct = 3;
-  vol = 127;
   
   talkMIDI(0xB0, 0x07, vol); 
   talkMIDI(0xC0, instrument, 0);
